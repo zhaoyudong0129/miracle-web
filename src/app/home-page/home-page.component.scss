@@ -31,3 +31,19 @@
         color: mat-color($candy-app-primary);
     }
 }
+
+.homepage-promotion{
+    padding: 16px;
+}
+.homepage-row{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgba(0,0,0,.54);
+    justify-content:center;
+    .mat-card{
+        margin:30px;
+    }
+    .mat-card-image{
+        max-width: 400px;
+    }
+}

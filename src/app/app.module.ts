@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import {MdButtonModule,MdToolbarModule} from '@angular/material';
+import {MdButtonModule,MdToolbarModule,MdCardModule} from '@angular/material';
 import { HomePageComponent } from './home-page/home-page.component'
 
 
@@ -16,6 +16,7 @@ import { HomePageComponent } from './home-page/home-page.component'
     BrowserModule,
     MdButtonModule,
     MdToolbarModule,
+    MdCardModule,
     AppRoutingModule
   ],
   providers: [],
