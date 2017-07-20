@@ -1,8 +1,12 @@
 @import 'src/styles/variables.scss';
+@import 'src/styles/mixin.scss';
 .miracle-header-background{
     background-color: mat-color($candy-app-primary);
     height: 300px;
     margin-bottom: 40px;
+    @include xs-screen{
+        margin-bottom: 8px;
+    }
 }
 .miracle-header{
     text-align: center;
@@ -34,6 +38,9 @@
 
 .homepage-promotion{
     padding: 16px;
+    @include xs-screen{
+        padding: 8px;
+    }
 }
 .homepage-row{
     display: flex;
@@ -41,8 +48,13 @@
     color: rgba(0,0,0,.54);
     justify-content:center;
     .mat-card{
-        margin:30px;
+        margin:20px;
     }
+    @include xs-screen{
+        .mat-card{
+        margin:16px 8px;
+    }
+    }    
     .mat-card-image{
         max-width: 400px;
     }
