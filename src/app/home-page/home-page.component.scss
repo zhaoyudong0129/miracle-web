@@ -1,0 +1,33 @@
+@import 'src/styles/variables.scss';
+.miracle-header-background{
+    background-color: mat-color($candy-app-primary);
+    height: 300px;
+    margin-bottom: 40px;
+}
+.miracle-header{
+    text-align: center;
+    padding-top: 50px;
+
+    &__headline{
+
+        color: hsla(0,0%,100%,.87);
+        h1{
+            font-size: 48px;
+            font-weight: 300;
+            line-height: 48px;
+            margin: 15px 0 20px 0;
+        }
+        
+        h2{
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 28px;
+            margin: 20px 0 25px 0;
+        }
+    }
+    &__start{
+        text-align: center;
+        margin: 60px 0;
+        color: mat-color($candy-app-primary);
+    }
+}
